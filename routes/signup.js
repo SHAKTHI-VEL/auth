@@ -4,9 +4,7 @@ const userSchema=require('../model/userSchema')
 const { body, validationResult } = require('express-validator');
 const bcrypt=require('bcryptjs');
 var jwt=require('jsonwebtoken');
-const dotenv=require('dotenv');
-dotenv.config({path:'./config/config.env'});
-const JWT_SECRET=process.env.JWT_SECRET;
+const JWT_SECRET="hfdcfswsaefdtgf$tgf"
 
 
 // @route:login
