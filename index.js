@@ -10,7 +10,7 @@ app.use(express.json())
 connection();
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Welcome to auth api')
 })
 
 // @Route:/signup
